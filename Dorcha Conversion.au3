@@ -46,11 +46,11 @@ While ($counter=1)
 ;Part 1 Activating Combat Mode
 Send("{1}")
 
-Sleep(750)
+Sleep(4000)
 
 ;Use skill to consume one dorcha
 Send("{2}")
-Sleep(400)
+Sleep(1000)
 Send("{CTRLDOWN}")
 Sleep(400)
 Mouseclick("left")
