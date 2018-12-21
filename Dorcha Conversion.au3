@@ -28,7 +28,7 @@
 	Rank 3 - 540
 	Rank 2 - 540
 
-	START WITH MAX DORCHA
+	START WITH MAX DORCHA - 1 (One under max)
 #ce ----------------------------------------------------------------------------
 
 ; Script Start - Add your code below here
