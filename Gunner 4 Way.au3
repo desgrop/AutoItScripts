@@ -1,7 +1,7 @@
 #cs ----------------------------------------------------------------------------
 
  AutoIt Version: 3.3.14.5
- Author:         myName
+ Author:         Masteryoda - Mari
 
  Script Function:
 	Trains Flash Launcher -> Grapple Shot -> Bullet Slide inside of provocation
@@ -55,6 +55,5 @@ While($c = 1)
 	Send("{4}")
 
 	Sleep(7000)
-
 
 WEnd
