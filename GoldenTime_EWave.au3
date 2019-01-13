@@ -40,17 +40,17 @@ $c = 1
 
 While($c = 1)
 
-	;Goldent Time
+	;Golden Time
 	Send("{1}")
-	Sleep(500)
+	Sleep(700)
 
 	;Elemental Wave
 	Send("{2}")
-	Sleep(500)
+	Sleep(700)
 
 	;Shock
 	Send("{3}")
-	Sleep(500)
+	Sleep(1500)
 
 	;Shock Self Target
 	Send("{CTRLDOWN}")
@@ -61,6 +61,6 @@ While($c = 1)
 
 	;Adjust this sleep timer to correspond with Golden Time cooldown
 	;Take Cooldown and add 000 (Ex : cooldown = 300 -> Sleep(300000)
-	Sleep(230000)
+	Sleep(180000)
 
 WEnd
