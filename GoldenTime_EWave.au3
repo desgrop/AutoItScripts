@@ -59,8 +59,18 @@ While($c = 1)
 	Sleep(400)
 	Send("{CTRLUP}")
 
+	;Fantastic Chorus + Enduring Melody
+	Sleep(1000)
+	Send("{4}")
+	Sleep(1000)
+	Send("{5}")
+	Sleep(2000)
+	Send('{ESC}')
+	Sleep(400)
+	Send('{TAB}')
+
 	;Adjust this sleep timer to correspond with Golden Time cooldown
 	;Take Cooldown and add 000 (Ex : cooldown = 300 -> Sleep(300000)
-	Sleep(180000)
+	Sleep(178000)
 
 WEnd
